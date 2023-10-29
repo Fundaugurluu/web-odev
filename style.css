@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.section {
+    text-align: center;
+    padding: 40px;
+}
+
+.section h2 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    background-color: #5a0000;
+    color: #d88b8b;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #21ad42;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #903232;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.skill {
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    transition: width 1s ease-in-out;
+}
+
+.html {
+    background-color: #3d00cc;
+    width: 80%;
+}
+
+.css {
+    background-color: #3d00cc;
+    width: 70%;
+}
+
+.python {
+    background-color: #3d00cc;
+    width: 45%;
+}
+
+.java {
+    background-color: #3d00cc;
+    width: 65%;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #1ba02c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.github-button img {
+    max-width: 5%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -1.75%;
+    margin-left: 3%;
+  
+
+}
+.foto img {
+    max-width: 30%;
+    height: auto;
+}
+.section-content p{
+    font-size: 20px;
+}

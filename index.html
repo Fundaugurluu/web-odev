@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funda Uğurlu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Funda Uğurlu</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#anasayfa">Anasayfa</a></li>
+                        <li><a href="#hakkimda">Hakkımda</a></li>
+                        <li><a href="#yetenekler">Yetenekler</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="section" id="anasayfa">
+            <div class="section-top">
+                <div class="section-content">
+                    <h2>Merhaba, Ben Funda. Siteme Hoşgeldiniz!</h2>
+                    <a href="mailto:mail@example.com" class="contact-button">İletişim</a>
+                    <a href="https://github.com" class="github-button" target="_blank"><img src="github-mark.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="hakkimda">
+            <div class="section-content">
+                <h2>Hakkımda</h2>
+                <div class="foto">
+                    <img src="fotograf1.png" alt="Funda">
+                </div>
+                <p>Ben Funda Uğurlu.</p>
+                <p>Süleyman Demirel Üniversitesinde Bilgisayar Mühendisliği 3.Sınıf Öğrencisiyim.</p>
+            </div>
+        </section>
+
+        <section class="section" id="yetenekler">
+            <div class="section-content">
+                <h2>Yetenekler</h2>
+                <p>Programlama Dilleri:</p>
+                <div class="skill-bar">
+                    <div class="skill html">html %80</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill css">CSS %70</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill python">Python %45</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill java">Java %65</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="iletisim">
+            <div class="section-content">
+                <h2>İletişim</h2>
+                <form action="#">
+                    <label for="adsoyad">Ad Soyad:</label>
+                    <input type="text" id="adsoyad" name="adsoyad" required>
+                    <label for="eposta">E-Posta:</label>
+                    <input type="email" id="eposta" name="eposta" required>
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj" required></textarea>
+                    <button type="submit">Gönder</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
